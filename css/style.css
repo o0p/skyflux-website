@@ -121,9 +121,15 @@ margin: 30px 0;
   right: 0;
   left: 0;
   background-color: #fff;
+  transform: skewY(-3deg);
   -webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
+}
+
+/* Stats */
+.stats {
+  padding-top: 100px;
 }
 
 /* Utilities */
