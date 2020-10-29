@@ -184,17 +184,18 @@ margin: 30px 0;
 }
 
 /* Features */
-.features-head img {
+.features-head img,
+.docs-head img {
   width: 200px;
   justify-self: flex-end;
 }
 
 .features-sub-head img {
-  width: 300px;
+  width: 300px; 
   justify-self: flex-end;
 }
 
-.features-main .card {
+.features-main .card > i {
   margin-right: 20px;
 
 }
@@ -211,10 +212,21 @@ margin: 30px 0;
   grid-column: 1 /span 2;
 }
 
+/* Docs */
+.docs-main h3 {
+  margin: 20px 0;
+}
+
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start ;
+}
+
 /* Footer */
 .footer .social a {
   margin: 0 10px;
 }
+
 
 
 /* Tablets and under */
