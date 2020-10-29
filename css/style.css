@@ -292,7 +292,7 @@ margin: 30px 0;
   .cli .grid,
   .cloud .grid,
   .features-main .grid,
-  .docs-main, .grid {
+  .docs-main .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
@@ -312,7 +312,7 @@ margin: 30px 0;
     justify-self: center;
     margin-top: auto;
     animation: slideInFromBottom 1s ease-in;
-
+ 
   }
 
   .cli .grid > *:first-child {
