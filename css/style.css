@@ -381,8 +381,11 @@ pre {
   }
 
     
-  .navbar li:hover {
+  .navbar a:hover {
     border-bottom: none;
+  }
+
+  .navbar li:hover {
     transform: scale(.8);
     background-color: rgba(0, 0, 0, 0.25);
   }
